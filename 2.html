@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="form_handler.php" method="">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+
+        <p>Gender:</p>
+        <input type="radio" name="gender" value="male" checked>Male
+        <input type="radio" name="gender" value="female">Female
+
+        <label for="county">County:</label>
+        <input type="select" name="county" id="county">
+
+        <p>Pets:</p>
+        <input type="checkbox" name="pets" value="cat">Cat
+        <input type="checkbox" name="pets" value="dog">Dog
+        <input type="checkbox" name="pets" value="rodent">Rodent
+
+        <label for="description">Description:</label>
+        <textarea name="description" id="description"></textarea>
+
+        <input type="hidden" name="organization" value="CIA">
+    </form>
+</body>
+
+</html>
