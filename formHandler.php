@@ -7,9 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <pre>
+    <!-- <pre>
         <?php var_dump($_POST); ?>
-    </pre>
+    </pre> -->
     
     <?php
     
