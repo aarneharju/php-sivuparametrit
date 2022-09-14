@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <form action="form_handler.php" method="">
+    <form action="formHandler.php" method="post">
         <label for="name">Name:</label>
         <input type="text" name="name" id="name">
 
@@ -25,7 +25,10 @@
         <input type="radio" name="gender" value="female">Female
 
         <label for="county">County:</label>
-        <input type="select" name="county" id="county">
+        <select name="county" id="county">
+            <option value="uusimaa" selected>Uusimaa</option>
+            <option value="lappi">Lappi</option>
+        </select>
 
         <p>Pets:</p>
         <input type="checkbox" name="pets" value="cat">Cat
@@ -36,6 +39,8 @@
         <textarea name="description" id="description"></textarea>
 
         <input type="hidden" name="organization" value="CIA">
+
+        <input type="submit">
     </form>
 </body>
 
